@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import AboutProps from "./Components/AboutProps";
 import DemoPorps from "./Components/DemoProps";
-
+import AboutBinding from "./Components/AboutBinding";
+import AboutComponentAPI from "./Components/AboutComponentAPI";
+import AboutLifeCycle from "./LifeCycle/AboutLifeCycle";
 export class App extends Component {
   render() {
     return (
@@ -16,12 +18,15 @@ export class App extends Component {
               <li>Props(Properties)</li>
               <li>lifecycle of class Component</li>
             </ul>
+            <DemoPorps></DemoPorps>
+            <AboutBinding id="101" name="Mark Miller"></AboutBinding>
             <AboutProps name="React" appName="React App"></AboutProps>
+            <AboutComponentAPI />
           </li>
           <li>Functional Component</li>
         </ul>
-       <DemoPorps></DemoPorps>
 
+        <AboutLifeCycle></AboutLifeCycle>
       </div>
     );
   }
