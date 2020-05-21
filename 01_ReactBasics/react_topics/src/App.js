@@ -5,6 +5,7 @@ import DemoPorps from "./Components/DemoProps";
 import AboutBinding from "./Components/AboutBinding";
 import AboutComponentAPI from "./Components/AboutComponentAPI";
 import AboutLifeCycle from "./LifeCycle/AboutLifeCycle";
+import IntroFunction from "./FunctionAndJsx/IntroFunction";
 export class App extends Component {
   render() {
     return (
@@ -27,6 +28,7 @@ export class App extends Component {
         </ul>
 
         <AboutLifeCycle></AboutLifeCycle>
+        <IntroFunction />
       </div>
     );
   }
