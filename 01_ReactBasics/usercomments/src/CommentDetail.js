@@ -12,7 +12,7 @@ const CommentDetail = (props) => {
           {props.name}
         </a>
         <div className="metadata">
-          <span className="date">{faker.date.weekday()}</span>
+          <span className="date">{props.date}</span>
         </div>
         <div className="text">Nice React App!!</div>
       </div>
