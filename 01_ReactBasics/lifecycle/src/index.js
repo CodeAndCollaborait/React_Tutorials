@@ -5,6 +5,8 @@ import "./index.css";
 import SimpleFunction from "./Components/SimpleFunction";
 import ClassWithState from "./Components/ClassWithState";
 import FunctionWithState from "./Components/FunctionWithState";
+import ClassWithStateTwo from "./Components/ClassWithStateTwo";
+import FunctionWithStateTwo from "./Components/FunctionWithStateTwo";
 const App = () => {
   return (
     <Fragment>
@@ -12,9 +14,11 @@ const App = () => {
       <h3>React Class Component (LifeCycle)</h3>
       <SimpleClass />
       <ClassWithState />
+      <ClassWithStateTwo />
       <h3>React Functional Component (Hooks)</h3>
       <SimpleFunction />
       <FunctionWithState />
+      <FunctionWithStateTwo />
     </Fragment>
   );
 };

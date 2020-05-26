@@ -1,0 +1,9 @@
+
+
+Class                             Functional 
+1. state (const)                 1. state (useState)
+2. setState() Function           2. with useState function
+
+3. ComponentDidMount()           3. useEffect()
+   only execute once                can also be execute once or many times(auto)
+4. ComponentDidUpdate()          4. useEffect()

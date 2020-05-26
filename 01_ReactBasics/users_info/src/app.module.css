@@ -1,0 +1,26 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background: lightgrey;
+}
+
+.header {
+  font-size: 35px;
+  color: blue;
+  font-family: Georgia;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.text {
+  font-size: medium;
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+  margin: 15px;
+  padding: 15px;
+}
